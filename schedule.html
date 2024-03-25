@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schedule a Lesson</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</head>
+<body>
+    <div class="background">
+        <div class="schedule-container">
+            <div class="logo-container">
+                <img src="logowhite.png" alt="Logo" class="logo">
+                <div class="button-group">
+                    <button class="button" onclick="window.location.href='index.html';">ABOUT</button>
+                    <button class="button" onclick="window.location.href='schedule.html';">SCHEDULE A LESSON</button>
+                    <button class="button" onclick="window.location.href='info.html';">INFO</button>
+                </div>
+            </div>
+			<div class="schedule-content">
+				<h2>First lesson is free!</h2>
+				<p>1.) Follow the link below to fill out a registration form</p>
+				<a href="https://forms.gle/533pB49qjNN18QTU8">New Student Registration Form</a>
+				<p>2.) Select a time for your first lesson</p>
+			</div>
+            <!-- Calendly inline widget -->
+            <div class="calendly-container">
+                <div class="calendly-inline-widget" data-url="https://calendly.com/barrettzachj/30min?hide_event_type_details=1" style="min-width:320px;height:630px;">
+				</div>
+            </div>
+        </div>
+		
+    </div>
+</body>
+</html>
