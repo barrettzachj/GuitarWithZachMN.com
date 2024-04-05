@@ -190,6 +190,13 @@ p {
 .schedule-content {
 	text-align: center;
 	position: relative;
+	display: flex;
+}
+
+@media screen and (max-width: 600px) {
+.schedule-content {
+	display: inline;
+}
 }
 
 .schedule-content a {
@@ -211,6 +218,32 @@ p {
 
 .schedule-content p {
 	text-align: center;
+}
+
+.schedule-left {
+	max-width: 50%;
+	width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+.schedule-left {
+	max-width: 96%;
+	width: 96%;
+	margin-left: 2%;
+}
+}
+
+.schedule-right {
+	max-width: 50%;
+	width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+.schedule-right {
+	max-width: 96%;
+	width: 96%;
+	margin-left: 2%;
+}
 }
 
 .calendly-container {
